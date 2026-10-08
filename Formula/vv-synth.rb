@@ -3,8 +3,8 @@ class VvSynth < Formula
 
   desc "Text-to-speech CLI for VOICEVOX Engine"
   homepage "https://github.com/ru-461/vv-synth"
-  url "https://files.pythonhosted.org/packages/c6/d0/3b7db3808b933d0251daae2ed8d24c2eb573a95984219aaf169d7471e9a7/vv_synth-0.1.1.tar.gz"
-  sha256 "8e0e018d13dd4a6910384cddad7071e49e716bddf4a5acf9c9b774def0c778b5"
+  url "https://files.pythonhosted.org/packages/ae/5a/945c5c85d20204fe5febad8b3a6e2fbc9d33915c8903f48175fb16270c7e/vv_synth-0.1.2.tar.gz"
+  sha256 "079554576bbc567db603b5c2cd1a0b959b67ca3dd0dcd52ef771893b5a4fa0e6"
   license "MIT"
 
   depends_on "python@3.14"
@@ -40,8 +40,8 @@ class VvSynth < Formula
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/16/f7/57713ba479fd405eb76de31404b2c744c289e336b2d999511ebf51e496f7/typer-0.27.2.tar.gz"
-    sha256 "269b7eb9d3c202ca84b4bc9618cb04ebb43d3d4d1e567e4c768607232c05f945"
+    url "https://files.pythonhosted.org/packages/03/51/d33db42cc72ffd8c30777547b42d01f0cbf9d95a770457698d0174b3ed71/typer-0.27.3.tar.gz"
+    sha256 "d0396f770a560ab1b0a8504e13b5f254b728cedb05c61cf0359e944e50ce8901"
   end
 
   def install
